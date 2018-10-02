@@ -41,9 +41,34 @@
             background-color: #4CAF50;
         }
 
-        #project {
-            border-style: solid;
+
+
+        /* gallery css code*/
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
         }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+
+
+
+        /* gallery css code end*/
     </style>
 
 </head>
@@ -69,38 +94,43 @@
     <div style="padding:20px;margin-top:30px;background-color:darkgoldenrod;height:1500px;">
 
         <br> <br>
-        <div id="project">
-            <h2>
-                Medical Image Registration and Fusion Processing System
-            </h2>
-        </div>
+        
+            <div class="gallery">
+                <a target="_blank" href="Projects_Images/brain.jpg">
+                    <img src="Projects_Images/brain.jpg" alt="brain" width="600" height="400">
+                </a>
+                <div class="desc">Medical Image Registration and Fusion Processing System</div>
+            </div>
 
-        <br> <br>
-        <div id="project">
-            <h2>
-                Intelligent Interpretation System For Diseases on Cash Crops in Vidarbh Region
-            </h2>
+            <div class="gallery">
+                    <a target="_blank" href="Projects_Images/recom.jpg">
+                        <img src="Projects_Images/recom.jpg" alt="brain" width="600" height="400">
+                    </a>
+                    <div class="desc">Recommender System</div>
+                </div>
 
-        </div>
-        <h2>
-            Improving Cattle Fodder storage, Tanzania - IDDS 2014, D-Lab, MIT, USA
-        </h2>
+                <div class="gallery">
+                        <a target="_blank" href="Projects_Images/ahs.jpg">
+                            <img src="Projects_Images/ahs.jpg" alt="brain" width="600" height="400">
+                        </a>
+                        <div class="desc">Control Model of Adaptive Headlight System</div>
+                    </div>
+    
 
-        <h2>
-            Gas Switch - Design Innovation Workshop 2014, MIT Media Lab, USA
-        </h2>
+                    <div class="gallery">
+                            <a target="_blank" href="Projects_Images/bus.jpg">
+                                <img src="Projects_Images/bus.jpg" alt="brain" width="600" height="400">
+                            </a>
+                            <div class="desc">Intelligent Public Transport Prediction System using Wireless Sensor Network</div>
+                        </div>
 
-        <h2>
-            Q-CSMA: Queue-Length Based CSMA/CA Algorithms
-        </h2>
 
-        <h2>
-            Goal Decision System: Developed football goal detection system for Vidarbh football club
-        </h2>
 
-        <h2>
-            Context aware Energy Efficient Offices and Home using Renewable Energy
-        </h2>
+
+
+
+
+
 
     </div>
 </body>
