@@ -3,7 +3,7 @@
 <head>
 
     <title> AbhishekRaut.com</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
@@ -27,12 +27,55 @@
     <div id="content">
 
         <p>
-            <h4>Get in touch:</h4>
+            <h1>Get in touch:</h1>
         </p>
-        <p>
-            <h4> ABHISHEK.RAUT@MAIL.COM</h4>
-        </p>
-        
+
+        <div class="contact form">
+
+            <form action="https://formspree.io/ABHISHEK.RAUT@MAIL.COM" method="POST">
+                <h4>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="name">Name:</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" name="name"  placeholder="Full name.."></td>
+                        </tr>
+
+                        <tr>
+                            <td> <label for="_replyto">Email:</label></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="email" name="_replyto" placeholder="example@example.com"></td>
+                        </tr>
+
+                        <tr>
+                            <td> <label for="message">Message:</label></td>
+                        </tr>
+                        <tr>
+                            <td><textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="submit" value="Send"></td>
+                        </tr>
+                    </table>
+                </h4>
+
+            </form>
+
+
+
+
+
+        </div>
+
+
+
+
     </div>
 
 
