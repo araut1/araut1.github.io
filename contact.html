@@ -1,162 +1,223 @@
 <html>
 
 <head>
-
     <title> Abhishek Raut</title>
     <link rel="shortcut icon" href="images/icon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 
 
 <body>
 
-    <ul>
-        <li> <a href="index.html"> Home </a> </li>
-        <li> <a href="work.html"> Work </a> </li>
-        <li> <a href="projects.html"> Projects </a> </li>
-        <li> <a href="publications.html"> Publications </a> </li>
-        <li> <a href="education.html"> Education </a> </li>
-        <li> <a href="contact.html"> Contact </a> </li>
+    <!-- Navigation-Start -->
+    <div id="Nav-edit" style="  padding-top: 1.5%; padding-right: 1.5%; padding-bottom: 1.5%; padding-left: 1.5%;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Abhishek Raut</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    </ul>
+                <div class="collapse navbar-collapse" id="navbarColor03">
+
+                    <ul class="navbar-nav me-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="work.html">Work</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="research.html">Research</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="education.html">Education</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navigation-End -->
 
 
-    <div id="containor">
+    <div id="container">
 
         <h1 class="mainheading">Get in touch</h1>
-
+        <br>
         <form action="https://formspree.io/f/xnqlznkg" method="POST">
 
-            <table style="width:100%; text-align: center">
+            <table style="width:100%; text-align: center;">
+
                 <tr>
                     <td>
-                        <label for="name"></label>
+                        <label for="Name:"></label>
                         <h4>Name</h4></label>
-                        <!-- </td>
+                    </td>
                 </tr>
+
                 <tr>
-                    <td>  -->
+                    <td>
                         <input type="text" name="Name:" placeholder="Name">
                     </td>
                 </tr>
-
-                <tr>
-                    <td></td>
+               
+                <tr class="blank_row">
+                    <td colspan="1"></td>
                 </tr>
-                <tr>
-                    <td></td>
+               
+                <tr class="blank_row">
+                    <td colspan="1"></td>
                 </tr>
+                
                 <tr>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td> <label for="_replyto">
+                    <td> <label for="Email:">
                             <h4>Email</h4>
                         </label>
-                        <!-- </td>
-                </tr>
-                <tr>
-                    <td> -->
-                        <input type="email" name="Email:" placeholder="example@example.com"></td>
-                </tr>
-                <tr>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
+                    </td>
                 </tr>
 
                 <tr>
-                    <td> <label for="message">
+                    <td>
+                        <input type="email" name="Email:" placeholder="example@example.com">
+                    </td>
+                </tr>
+
+                <tr class="blank_row">
+                    <td colspan="1"></td>
+                </tr>
+
+                <tr class="blank_row">
+                    <td colspan="1"></td>
+                </tr>
+
+                <tr>
+
+                    <td> <label for="Message:">
                             <h4>Message</h4>
                         </label>
-                        <!-- </td>
-                </tr>
-                <tr>
-                    <td> -->
-                        <textarea id="subject" name="Message:" placeholder="Write message.."
-                            style="height:200px"></textarea></td>
-                </tr>
-                <tr>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
+                    </td>
+
                 </tr>
 
-                <tr>
-                    <td><input type="submit" value="Send"></td>
-                </tr>
-                <tr></tr>
-                <tr>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                </tr>
                 <tr>
 
                     <td>
-                        <a target="_blank" href="media/docs/Resume.pdf" title="Resume">
-                            <img border="0" alt="resume" src="images/icon/resume.png">
-                        </a>
-                        &nbsp;&nbsp;
-                        <a target="_blank" href="https://www.linkedin.com/in/abhishekraut" title="LinkedIn">
-                            <img border="0" alt="https://www.linkedin.com/in/abhishekraut"
-                                src="images/icon/linkedin.png">
-                        </a>
-                        &nbsp;&nbsp;
-                        <a target="_blank" href="https://github.com/araut1" title="GitHub">
-                            <img border="0" alt="https://github.com/araut1" src="images/icon/github.png">
-                        </a>
-                        &nbsp;&nbsp;
-                        <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=_qcxMfQAAAAJ"
-                            title="Google Scholar">
-                            <img border="0" alt="https://scholar.google.com/citations?hl=en&user=_qcxMfQAAAAJ"
-                                src="images/icon/google.png">
-                        </a>
-                        &nbsp;&nbsp;
-                        <a target="_blank" href="https://medium.com/@abhixpert" title="Medium">
-                            <img border="0" alt="https://medium.com/@abhixpert" src="images/icon/medium.png">
-                        </a>
-                        &nbsp;&nbsp;
-                        <a target="_blank" href="https://twitter.com/AbhiXpert" title="Twitter">
-                            <img border="0" alt="https://twitter.com/AbhiXpert" src="images/icon/twitter.png">
+                        <textarea id="subject" name="Message:" placeholder="Write message.."
+                            style="height:200px"></textarea>
+                    </td>
+
+                </tr>
+
+                <tr class="blank_row">
+                    <td colspan="1"></td>
+                </tr>
+
+                <tr>
+
+                    <td><input type="submit" value="Send"></td>
+
+                </tr>
+
+                <tr class="blank_row">
+                    <td colspan="1"></td>
+                </tr>
+
+
+            </table>
+
+            <br><br>
+
+            <table align="center" style="width:35%; text-align: center; ">
+
+                <tr>
+
+                    <td>
+                        <a target="_blank" href="Resume.pdf" title="Resume" style="text-decoration:none">
+                            <img alt="Resume.pdf" src="images/icon/resume.png" style="text-decoration:none">
                         </a>
                     </td>
+
+                    <td>
+                        <a target="_blank" href="https://www.linkedin.com/in/abhishekraut" title="LinkedIn"
+                            style="text-decoration:none">
+                            <img alt="https://www.linkedin.com/in/abhishekraut" src="images/icon/linkedin.png">
+                        </a>
+                    </td>
+
+                    <td>
+                        <a target="_blank" href="https://github.com/araut1" title="GitHub" style="text-decoration:none">
+                            <img alt="https://github.com/araut1" src="images/icon/github.png">
+                        </a>
+                    </td>
+
+                    <td>
+                        <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=_qcxMfQAAAAJ"
+                            title="Google Scholar" style="text-decoration:none">
+                            <img alt="https://scholar.google.com/citations?hl=en&user=_qcxMfQAAAAJ"
+                                src="images/icon/google.png">
+                        </a>
+                    </td>
+
+                    <td>
+                        <a target="_blank" href="https://medium.com/@abhixpert" title="Medium"
+                            style="text-decoration:none">
+                            <img alt="https://medium.com/@abhixpert" src="images/icon/medium.png">
+                        </a>
+                    </td>
+
+                    <td>
+                        <a target="_blank" href="https://twitter.com/AbhiXpert" title="Twitter"
+                            style="text-decoration:none">
+                            <img alt="https://twitter.com/AbhiXpert" src="images/icon/twitter.png">
+                        </a>
+                    </td>
+
+
                 </tr>
+
+                <tr>
+
+                    <td><a target="_blank" href="Resume.pdf" title="Resume" style="text-decoration:none">Resume</a></td>
+
+                    <td><a target="_blank" href="https://www.linkedin.com/in/abhishekraut" title="LinkedIn"
+                            style="text-decoration:none">LinkedIn</a></td>
+
+                    <td> <a target="_blank" href="https://github.com/araut1" title="GitHub"
+                            style="text-decoration:none"></a>GitHub</a></td>
+
+                    <td><a target="_blank" href="https://scholar.google.com/citations?hl=en&user=_qcxMfQAAAAJ"
+                            title="Google Scholar" style="text-decoration:none">Google Scholar</a></td>
+
+                    <td> <a target="_blank" href="https://medium.com/@abhixpert" title="Medium"
+                            style="text-decoration:none">Medium</a></td>
+
+                    <td> <a target="_blank" href="https://twitter.com/AbhiXpert" title="Twitter"
+                            style="text-decoration:none">Twitter</a></td>
+
+                </tr>
+
             </table>
 
 
         </form>
-
-
-
-
-
-
-
-
     </div>
-
-
 
 </body>
 
